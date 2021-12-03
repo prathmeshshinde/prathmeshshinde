@@ -168,6 +168,11 @@ function App() {
                 </a>
               </li>
               <li>
+                <a href="https://tailwindcss.com/" target="_blank">
+                  <img src="/tailwind.png" />
+                </a>
+              </li>
+              <li>
                 <a href="https://reactjs.org/" target="_blank">
                   <img src="/react.png" />
                 </a>
