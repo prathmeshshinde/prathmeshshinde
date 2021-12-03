@@ -266,9 +266,8 @@ function App() {
             <div className="animetext">
               <h7>Uber Clone</h7>
               <p>
-                It is a system that allows users to check for various countries
-                power depend on the countries Army, Navy and Air Force.Power
-                Index App is built by using React.js and Firebase.
+                This is a Uber clone. Uber Clone App is built by using
+                Tailwind.css, Next.js, React.js and Firebase.
               </p>
               <a href="https://ubercloneps.vercel.app/login" target="_blank">
                 <button className="probtn">Live Website</button>
