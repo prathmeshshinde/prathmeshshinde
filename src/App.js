@@ -258,6 +258,24 @@ function App() {
         <Fade top>
           <h3>Projects</h3>
         </Fade>
+        <Bounce right>
+          <div className="power">
+            <div className="animeimg">
+              <img src="/uberclone.png" />
+            </div>
+            <div className="animetext">
+              <h7>Uber Clone</h7>
+              <p>
+                It is a system that allows users to check for various countries
+                power depend on the countries Army, Navy and Air Force.Power
+                Index App is built by using React.js and Firebase.
+              </p>
+              <a href="https://ubercloneps.vercel.app/login" target="_blank">
+                <button className="probtn">Live Website</button>
+              </a>
+            </div>
+          </div>
+        </Bounce>
         <Bounce left>
           <div className="power">
             <div className="animeimg">
