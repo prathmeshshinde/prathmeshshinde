@@ -738,7 +738,6 @@ h6 {
     padding: 10px 0px 10px 0px;
     font-size: 12px;
     font-weight: 300;
-    width: auto;
   }
 
   /*--------------- about ------------*/
@@ -816,7 +815,7 @@ h6 {
   .animetext {
     text-align: center;
     padding: 0px 0px 10px 15px;
-    width: auto;
+    width: 280px;
   }
 
   .probtn {
@@ -830,6 +829,7 @@ h6 {
     font-size: 13px;
     font-weight: 300;
     margin: 0px 0px 0px 0px;
+    width: auto;
   }
 
   /*--------------- contact ------------*/
@@ -1125,14 +1125,12 @@ h6 {
     padding: 10px 0px 10px 0px;
     font-size: 12px;
     font-weight: 300;
-    width: auto;
   }
 
   /*--------------- about ------------*/
 
   .about-container {
     height: auto;
-    width: auto;
   }
 
   .aboutme {
@@ -1161,9 +1159,9 @@ h6 {
   .abt-container p {
     font-size: 12px;
     text-align: center;
-    width: auto;
-    margin: 0px 0px 0px 10px;
-    padding: 0px 0px 0px 0px;
+    width: 330px;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 20px;
   }
   .lets {
     padding: 0px 0px 30px 0px;
@@ -1203,7 +1201,7 @@ h6 {
   .animetext {
     text-align: center;
     padding: 0px 0px 10px 30px;
-    width: auto;
+    width: 300px;
   }
 
   .probtn {
@@ -1217,6 +1215,7 @@ h6 {
     font-size: 13px;
     font-weight: 300;
     margin: 0px 0px 0px 0px;
+    width: 300px;
   }
 
   /*--------------- contact ------------*/
@@ -1512,7 +1511,6 @@ h6 {
     padding: 10px 0px 10px 0px;
     font-size: 12px;
     font-weight: 300;
-    width: auto;
   }
 
   /*--------------- about ------------*/
@@ -1547,9 +1545,9 @@ h6 {
   .abt-container p {
     font-size: 12px;
     text-align: center;
-    width: 400px;
+    width: 350px;
     margin: 0px 0px 0px 10px;
-    padding: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 25px;
   }
   .lets {
     padding: 0px 0px 30px 0px;
@@ -1603,6 +1601,7 @@ h6 {
     font-size: 13px;
     font-weight: 300;
     margin: 0px 0px 0px 0px;
+    width: 350px;
   }
 
   /*--------------- contact ------------*/
