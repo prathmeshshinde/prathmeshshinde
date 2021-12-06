@@ -658,16 +658,19 @@ h6 {
     background-color: #000;
   }
 
+  .mobile {
+    position: absolute;
+  }
+
   .hero .right {
     width: 100%;
   }
 
   .hero .right img {
-    position: absolute;
     width: 45%;
     height: 40%;
-    margin: -400px 0px 0px -70px;
-    padding: 0px 0px 0px 0px;
+    margin: 40px 0px 0px 0px;
+    padding: 0px 0px 50px 0px;
   }
 
   .social {
@@ -1036,15 +1039,19 @@ h6 {
     background-color: #000;
   }
 
+  .mobile {
+    position: absolute;
+  }
+
   .hero .right {
     width: 100%;
+    align-items: center;
   }
 
   .hero .right img {
-    position: absolute;
     width: 45%;
     height: 40%;
-    margin: -400px 0px 0px -80px;
+    margin: 40px 0px 0px 0px;
     padding: 0px 0px 0px 0px;
   }
 
@@ -1417,15 +1424,18 @@ h6 {
     background-color: #000;
   }
 
+  .mobile {
+    position: absolute;
+  }
+
   .hero .right {
     width: 100%;
   }
 
   .hero .right img {
-    position: absolute;
     width: 45%;
     height: 40%;
-    margin: -410px 0px 0px -80px;
+    margin: 20px 0px 0px 0px;
     padding: 0px 0px 0px 0px;
   }
 
