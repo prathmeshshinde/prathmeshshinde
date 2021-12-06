@@ -144,43 +144,28 @@ function App() {
           <div className="skill">
             <ul>
               <li>
-                <a
-                  href="https://developer.mozilla.org/en-US/docs/Glossary/HTML"
-                  target="_blank"
-                >
-                  <img src="/html.png" />
-                </a>
+                <img src="/html.png" />
               </li>
               <li>
-                <a
-                  href="https://developer.mozilla.org/en-US/docs/Web/CSS"
-                  target="_blank"
-                >
-                  <img src="/css.png" />
-                </a>
+                <img src="/css.png" />
               </li>
               <li>
-                <a
-                  href="https://developer.mozilla.org/en-US/docs/Web/JavaScript"
-                  target="_blank"
-                >
-                  <img src="/javascript.png" />
-                </a>
+                <img src="/javascript.png" />
               </li>
               <li>
-                <a href="https://tailwindcss.com/" target="_blank">
-                  <img src="/tailwind.png" />
-                </a>
+                <img src="/tailwind.png" />
               </li>
               <li>
-                <a href="https://reactjs.org/" target="_blank">
-                  <img src="/react.png" />
-                </a>
+                <img src="/react.png" />
               </li>
               <li>
-                <a href="https://www.figma.com/" target="_blank">
-                  <img src="/figma.png" />
-                </a>
+                <img src="/git.png" />
+              </li>
+              <li>
+                <img src="/github.png" />
+              </li>
+              <li>
+                <img src="/figma.png" />
               </li>
             </ul>
           </div>

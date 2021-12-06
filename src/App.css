@@ -744,6 +744,7 @@ h6 {
 
   .about-container {
     height: auto;
+    width: auto;
   }
 
   .aboutme {
@@ -814,7 +815,7 @@ h6 {
   .animetext {
     text-align: center;
     padding: 0px 0px 10px 15px;
-    width: 280px;
+    width: auto;
   }
 
   .probtn {
@@ -1129,6 +1130,7 @@ h6 {
 
   .about-container {
     height: auto;
+    width: auto;
   }
 
   .aboutme {
@@ -1157,7 +1159,7 @@ h6 {
   .abt-container p {
     font-size: 12px;
     text-align: center;
-    width: 350px;
+    width: auto;
     margin: 0px 0px 0px 10px;
     padding: 0px 0px 0px 0px;
   }
@@ -1199,7 +1201,7 @@ h6 {
   .animetext {
     text-align: center;
     padding: 0px 0px 10px 30px;
-    width: 300px;
+    width: auto;
   }
 
   .probtn {
@@ -1542,7 +1544,7 @@ h6 {
   .abt-container p {
     font-size: 12px;
     text-align: center;
-    width: 400px;
+    width: auto;
     margin: 0px 0px 0px 10px;
     padding: 0px 0px 0px 0px;
   }
@@ -1584,7 +1586,7 @@ h6 {
   .animetext {
     text-align: center;
     padding: 0px 0px 10px 30px;
-    width: 350px;
+    width: auto;
   }
 
   .probtn {
