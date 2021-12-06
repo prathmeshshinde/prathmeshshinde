@@ -738,6 +738,7 @@ h6 {
     padding: 10px 0px 10px 0px;
     font-size: 12px;
     font-weight: 300;
+    width: auto;
   }
 
   /*--------------- about ------------*/
@@ -1124,6 +1125,7 @@ h6 {
     padding: 10px 0px 10px 0px;
     font-size: 12px;
     font-weight: 300;
+    width: auto;
   }
 
   /*--------------- about ------------*/
@@ -1510,6 +1512,7 @@ h6 {
     padding: 10px 0px 10px 0px;
     font-size: 12px;
     font-weight: 300;
+    width: auto;
   }
 
   /*--------------- about ------------*/
@@ -1544,7 +1547,7 @@ h6 {
   .abt-container p {
     font-size: 12px;
     text-align: center;
-    width: auto;
+    width: 400px;
     margin: 0px 0px 0px 10px;
     padding: 0px 0px 0px 0px;
   }
@@ -1586,7 +1589,7 @@ h6 {
   .animetext {
     text-align: center;
     padding: 0px 0px 10px 30px;
-    width: auto;
+    width: 350px;
   }
 
   .probtn {
