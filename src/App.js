@@ -251,6 +251,24 @@ function App() {
         <Bounce right>
           <div className="power">
             <div className="animeimg">
+              <img src="/covidtracker.png" />
+            </div>
+            <div className="animetext">
+              <h7>CovidTracker</h7>
+              <p>
+                The shows a total covid cases, recovered and deaths because of
+                the coronavirus. CovidTracker is build using React.js, HTML,
+                CSS.
+              </p>
+              <a href="https://covidtracker-ps.netlify.app/" target="_blank">
+                <button className="probtn">Live Website</button>
+              </a>
+            </div>
+          </div>
+        </Bounce>
+        <Bounce right>
+          <div className="power">
+            <div className="animeimg">
               <img src="/uberclone.png" />
             </div>
             <div className="animetext">
