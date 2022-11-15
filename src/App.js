@@ -248,41 +248,6 @@ function App() {
         <Fade top>
           <h3>Projects</h3>
         </Fade>
-        <Bounce right>
-          <div className="power">
-            <div className="animeimg">
-              <img src="/covidtracker.png" />
-            </div>
-            <div className="animetext">
-              <h7>CovidTracker</h7>
-              <p>
-                The shows a total covid cases, recovered and deaths because of
-                the coronavirus. CovidTracker is build using React.js, HTML,
-                CSS.
-              </p>
-              <a href="https://covidtracker-ps.netlify.app/" target="_blank">
-                <button className="probtn">Live Website</button>
-              </a>
-            </div>
-          </div>
-        </Bounce>
-        <Bounce right>
-          <div className="power">
-            <div className="animeimg">
-              <img src="/uberclone.png" />
-            </div>
-            <div className="animetext">
-              <h7>Uber Clone</h7>
-              <p>
-                This is a Uber clone. Uber Clone App is built by using
-                Tailwind.css, Next.js, React.js and Firebase.
-              </p>
-              <a href="https://ubercloneps.vercel.app/login" target="_blank">
-                <button className="probtn">Live Website</button>
-              </a>
-            </div>
-          </div>
-        </Bounce>
         <Bounce left>
           <div className="power">
             <div className="animeimg">
@@ -301,6 +266,61 @@ function App() {
             </div>
           </div>
         </Bounce>
+        <Bounce right>
+          <div className="power">
+            <div className="animeimg">
+              <img src="/posting.png" />
+            </div>
+            <div className="animetext">
+              <h7>Posting</h7>
+              <p>
+                This website is called Posting. We can post our thoughts and
+                like and bookmark other posts Posting is built by using
+                Tailwind.css, React.js and Firebase.
+              </p>
+              <a href="https://posting-ps.netlify.app/" target="_blank">
+                <button className="probtn">Live Website</button>
+              </a>
+            </div>
+          </div>
+        </Bounce>
+        <Bounce right>
+          <div className="power">
+            <div className="animeimg">
+              <img src="/amazonclone.png" />
+            </div>
+            <div className="animetext">
+              <h7>Amazon Clone</h7>
+              <p>
+                This website is amazon clone. We can see the products listed on
+                the website, add the product to the cart, choose quantity of the
+                product, and then we can proceed to checkout.
+              </p>
+              <a href="https://clone-aug10.netlify.app/" target="_blank">
+                <button className="probtn">Live Website</button>
+              </a>
+            </div>
+          </div>
+        </Bounce>
+        <Bounce right>
+          <div className="power">
+            <div className="animeimg">
+              <img src="/covidtracker.png" />
+            </div>
+            <div className="animetext">
+              <h7>CovidTracker</h7>
+              <p>
+                The shows a total covid cases, recovered and deaths because of
+                the coronavirus. CovidTracker is build using React.js, HTML,
+                CSS.
+              </p>
+              <a href="https://covidtracker-ps.netlify.app/" target="_blank">
+                <button className="probtn">Live Website</button>
+              </a>
+            </div>
+          </div>
+        </Bounce>
+
         <Bounce right>
           <div className="anime">
             <div className="animeimg">
