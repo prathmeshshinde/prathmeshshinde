@@ -278,13 +278,13 @@ function App() {
                 like and bookmark other posts Posting is built by using
                 Tailwind.css, React.js and Firebase.
               </p>
-              <a href="https://posting-ps.netlify.app/" target="_blank">
+              <a href="https://posting-ps.vercel.app/" target="_blank">
                 <button className="probtn">Live Website</button>
               </a>
             </div>
           </div>
         </Bounce>
-        <Bounce right>
+        {/* <Bounce right>
           <div className="power">
             <div className="animeimg">
               <img src="/amazonclone.png" />
@@ -301,7 +301,7 @@ function App() {
               </a>
             </div>
           </div>
-        </Bounce>
+        </Bounce> */}
         <Bounce right>
           <div className="power">
             <div className="animeimg">
@@ -314,7 +314,7 @@ function App() {
                 the coronavirus. CovidTracker is build using React.js, HTML,
                 CSS.
               </p>
-              <a href="https://covidtracker-ps.netlify.app/" target="_blank">
+              <a href="https://covidtracker-beta.vercel.app/" target="_blank">
                 <button className="probtn">Live Website</button>
               </a>
             </div>
@@ -333,7 +333,7 @@ function App() {
                 anime episode as a break. Animedoro is built by using HTML, CSS
                 and React.js.
               </p>
-              <a href="https://animedoro-ps.netlify.app/" target="_blank">
+              <a href="https://animedoro-ps.vercel.app/" target="_blank">
                 <button className="probtn">Live Website</button>
               </a>
             </div>
