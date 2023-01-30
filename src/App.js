@@ -342,7 +342,7 @@ function App() {
         <Bounce left>
           <div className="todo">
             <div className="animeimg">
-              <img src="/todo.png" />
+              <img src="/todoapp.png" />
             </div>
             <div className="animetext">
               <h7>TODO-APP</h7>
