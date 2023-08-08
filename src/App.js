@@ -32,7 +32,11 @@ function App() {
               <a href="#home">Prathmesh Shinde</a>
             </h1>
             <button onClick={() => setShow(!show)} className="ham">
-              {show ? <img src="/close.png" /> : <img src="/ham.png" />}
+              {show ? (
+                <img src="/close.png" alt="social" />
+              ) : (
+                <img src="/ham.png" alt="social" />
+              )}
             </button>
             <ul className="nav">
               <li>
@@ -94,32 +98,36 @@ function App() {
                       <a
                         href="https://www.linkedin.com/in/prathmesh-shinde-56920b1b9/"
                         target="_blank"
+                        rel="noreferrer"
                       >
-                        <img src="/link.png" />
+                        <img src="/link.png" alt="social" />
                       </a>
                     </li>
                     <li>
                       <a
                         href="https://github.com/prathmeshshinde"
                         target="_blank"
+                        rel="noreferrer"
                       >
-                        <img src="/github.png" />
+                        <img src="/github.png" alt="social" />
                       </a>
                     </li>
                     <li>
                       <a
                         href="https://discords.com/bio/p/prathmesh1008"
                         target="_blank"
+                        rel="noreferrer"
                       >
-                        <img src="/discord.png" />
+                        <img src="/discord.png" alt="social" />
                       </a>
                     </li>
                     <li>
                       <a
                         href="https://twitter.com/Prathmesh_1008"
                         target="_blank"
+                        rel="noreferrer"
                       >
-                        <img src="/twitter.png" />
+                        <img src="/twitter.png" alt="social" />
                       </a>
                     </li>
                   </ul>
@@ -130,7 +138,7 @@ function App() {
 
           <Fade right>
             <div className="right">
-              <img src="/gp.png" />
+              <img src="/gp.png" alt="social" />
             </div>
           </Fade>
         </section>
@@ -144,28 +152,28 @@ function App() {
           <div className="skill">
             <ul>
               <li>
-                <img src="/html.png" />
+                <img src="/html.png" alt="social" />
               </li>
               <li>
-                <img src="/css.png" />
+                <img src="/css.png" alt="social" />
               </li>
               <li>
-                <img src="/javascript.png" />
+                <img src="/javascript.png" alt="social" />
               </li>
               <li>
-                <img src="/tailwind.png" />
+                <img src="/tailwind.png" alt="social" />
               </li>
               <li>
-                <img src="/react.png" />
+                <img src="/react.png" alt="social" />
               </li>
               <li>
-                <img src="/git.png" />
+                <img src="/git.png" alt="social" />
               </li>
               <li>
-                <img src="/github.png" />
+                <img src="/github.png" alt="social" />
               </li>
               <li>
-                <img src="/figma.png" />
+                <img src="/figma.png" alt="social" />
               </li>
             </ul>
           </div>
@@ -217,7 +225,7 @@ function App() {
         <div className="aboutme">
           <Zoom>
             <div className="ab-img">
-              <img src="/dp.png" />
+              <img src="/dp.png" alt="dp" />
             </div>
           </Zoom>
           <Fade top cascade>
@@ -248,10 +256,32 @@ function App() {
         <Fade top>
           <h3>Projects</h3>
         </Fade>
+        <Bounce right>
+          <div className="power">
+            <div className="animeimg">
+              <img src="/anify.png" alt="power" />
+            </div>
+            <div className="animetext">
+              <h7>Anify App</h7>
+              <p>
+                Anify is app that allows anime lover to make spotify playlist
+                based on their favourite animes. Anify webapp is built with
+                React.js, spotify APIs and Tailwind CSS.
+              </p>
+              <a
+                href="https://anify-anime.vercel.app/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <button className="probtn">Live Website</button>
+              </a>
+            </div>
+          </div>
+        </Bounce>
         <Bounce left>
           <div className="power">
             <div className="animeimg">
-              <img src="/power.png" />
+              <img src="/power.png" alt="power" />
             </div>
             <div className="animetext">
               <h7>POWER INDEX</h7>
@@ -260,7 +290,11 @@ function App() {
                 power depend on the countries Army, Navy and Air Force.Power
                 Index App is built by using React.js and Firebase.
               </p>
-              <a href="https://powerindex-cf70b.web.app/" target="_blank">
+              <a
+                href="https://powerindex-cf70b.web.app/"
+                target="_blank"
+                rel="noreferrer"
+              >
                 <button className="probtn">Live Website</button>
               </a>
             </div>
@@ -269,7 +303,7 @@ function App() {
         <Bounce right>
           <div className="power">
             <div className="animeimg">
-              <img src="/posting.png" />
+              <img src="/posting.png" alt="posting" />
             </div>
             <div className="animetext">
               <h7>Posting</h7>
@@ -278,7 +312,11 @@ function App() {
                 like and bookmark other posts Posting is built by using
                 Tailwind.css, React.js and Firebase.
               </p>
-              <a href="https://posting-ps.vercel.app/" target="_blank">
+              <a
+                href="https://posting-ps.vercel.app/"
+                target="_blank"
+                rel="noreferrer"
+              >
                 <button className="probtn">Live Website</button>
               </a>
             </div>
@@ -305,7 +343,7 @@ function App() {
         <Bounce right>
           <div className="power">
             <div className="animeimg">
-              <img src="/covidtracker.png" />
+              <img src="/covidtracker.png" alt="covidtracker" />
             </div>
             <div className="animetext">
               <h7>CovidTracker</h7>
@@ -314,7 +352,11 @@ function App() {
                 the coronavirus. CovidTracker is build using React.js, HTML,
                 CSS.
               </p>
-              <a href="https://covidtracker-beta.vercel.app/" target="_blank">
+              <a
+                href="https://covidtracker-beta.vercel.app/"
+                target="_blank"
+                rel="noreferrer"
+              >
                 <button className="probtn">Live Website</button>
               </a>
             </div>
@@ -324,7 +366,7 @@ function App() {
         <Bounce right>
           <div className="anime">
             <div className="animeimg">
-              <img src="/anime.png" />
+              <img src="/anime.png" alt="anime" />
             </div>
             <div className="animetext">
               <h7>ANIMEDORO</h7>
@@ -333,7 +375,11 @@ function App() {
                 anime episode as a break. Animedoro is built by using HTML, CSS
                 and React.js.
               </p>
-              <a href="https://animedoro-ps.vercel.app/" target="_blank">
+              <a
+                href="https://animedoro-ps.vercel.app/"
+                target="_blank"
+                rel="noreferrer"
+              >
                 <button className="probtn">Live Website</button>
               </a>
             </div>
@@ -342,7 +388,7 @@ function App() {
         <Bounce left>
           <div className="todo">
             <div className="animeimg">
-              <img src="/todoapp.png" />
+              <img src="/todoapp.png" alt="img" />
             </div>
             <div className="animetext">
               <h7>TODO-APP</h7>
@@ -351,7 +397,11 @@ function App() {
                 complete and incomplete work. Todo-App is built by using
                 React.js and Firebase.
               </p>
-              <a href="https://todo-5cdc9.web.app/" target="_blank">
+              <a
+                href="https://todo-5cdc9.web.app/"
+                target="_blank"
+                rel="noreferrer"
+              >
                 <button className="probtn">Live Website</button>
               </a>
             </div>
@@ -376,6 +426,7 @@ function App() {
               <a
                 href="https://www.linkedin.com/in/prathmesh-shinde-56920b1b9/"
                 target="_blank"
+                rel="noreferrer"
               >
                 <div className="mail">
                   <h8>LinkedIn</h8>
@@ -414,26 +465,36 @@ function App() {
                   <a
                     href="https://www.linkedin.com/in/prathmesh-shinde-56920b1b9/"
                     target="_blank"
+                    rel="noreferrer"
                   >
-                    <img src="/link.png" />
+                    <img src="/link.png" alt="linkedin" />
                   </a>
                 </li>
                 <li>
-                  <a href="https://github.com/prathmeshshinde" target="_blank">
-                    <img src="/github.png" />
+                  <a
+                    href="https://github.com/prathmeshshinde"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <img src="/github.png" alt="github" />
                   </a>
                 </li>
                 <li>
                   <a
                     href="https://discords.com/bio/p/prathmesh1008"
                     target="_blank"
+                    rel="noreferrer"
                   >
-                    <img src="/discord.png" />
+                    <img src="/discord.png" alt="discord" />
                   </a>
                 </li>
                 <li>
-                  <a href="https://twitter.com/Prathmesh_1008" target="_blank">
-                    <img src="/twitter.png" />
+                  <a
+                    href="https://twitter.com/Prathmesh_1008"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <img src="/twitter.png" alt="twitter" />
                   </a>
                 </li>
               </ul>
